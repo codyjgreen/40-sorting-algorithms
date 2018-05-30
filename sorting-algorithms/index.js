@@ -1,5 +1,5 @@
 const NativeSort = require('./native-sort');
-const BubbleSort = require('./bubble-sort');
+const BubbleSort = require('./bubble-sort').default;
 const BucketSort = require('./bucket-sort');
 const InsertionSort = require('./insertion-sort');
 const MergeSort = require('./merge-sort');
@@ -12,4 +12,4 @@ module.exports = {
   InsertionSort,
   MergeSort,
   Quicksort
-}
+};
