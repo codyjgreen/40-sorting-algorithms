@@ -1,3 +1,4 @@
+'use strict';
 const NativeSort = require('./native-sort');
 const BubbleSort = require('./bubble-sort');
 const BucketSort = require('./bucket-sort');
@@ -12,4 +13,4 @@ module.exports = {
   InsertionSort,
   MergeSort,
   Quicksort
-}
+};
